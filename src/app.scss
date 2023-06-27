@@ -1,0 +1,69 @@
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: white;
+    padding: 40px;
+    width: 25%;
+    border-radius: 15px;
+    box-shadow: 0 0 15px gray;
+    h1{
+        color: black;
+        color: rgb(27, 27, 150);
+        letter-spacing: 2px;
+    }
+    p{
+        color: black;
+    }
+    input{
+        padding: 10px;
+        font-size: 1rem;
+        margin: 10px 5px;
+        width: 100%;
+        border: 0;
+        border-radius: 15px;
+        box-shadow: 0 0 6px gray;
+    }
+    input:focus{
+        outline: none;
+    }
+    button.sign-in{
+        width: 100%;
+        padding: 10px;
+        margin: 10px 5px 20px;
+        background-color: rgb(27, 27, 150);
+        color: white;
+        border: 1px solid rgb(27, 27, 150);
+        border-radius: 15px;
+        font-size: 1rem;
+        letter-spacing: 3px;
+        transition: 500ms;
+        cursor: pointer;
+    }
+    button.sign-in:hover{
+        color: rgb(27, 27, 150);
+        background-color: white;
+    }
+    button.need-account{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        background-color: transparent;
+        border: 0;
+        color: rgb(27, 27, 150);
+        cursor: pointer;
+        padding: 10px;
+    }
+    button.forgot-pass{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        background-color: transparent;
+        border: 0;
+        color: rgb(27, 27, 150);
+        cursor: pointer;
+        padding: 10px;
+    }
+}
